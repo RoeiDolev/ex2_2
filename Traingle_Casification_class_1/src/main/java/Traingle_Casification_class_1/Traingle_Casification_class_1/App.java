@@ -23,7 +23,7 @@ class TriangleClassifier {
 			
 	        
 	        if (isEquilateral(a, b, c)) {
-	        	triangle= Triangle_Types.Scalene;
+	        	triangle= Triangle_Types.equilateral;
 	        }else if(isIsosceles(a, b, c)) {
 	        	triangle= Triangle_Types.isosceles;
 	        }else if(isTriangle(a, b, c)){
